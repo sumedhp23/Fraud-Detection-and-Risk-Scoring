@@ -24,5 +24,5 @@ This project implements an end-to-end fraud detection system using machine learn
 Credit Card Fraud Detection Dataset (Kaggle)
 
 ## Author
-Sumedh Patil
+# Sumedh Patil
 
