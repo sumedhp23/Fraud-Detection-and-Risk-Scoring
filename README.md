@@ -22,6 +22,9 @@ This project implements an end-to-end fraud detection system using machine learn
 
 ## Dataset
 Credit Card Fraud Detection Dataset (Kaggle)
+The dataset is not included due to GitHub size limits.
+Download from: https://www.kaggle.com/mlg-ulb/creditcardfraud
+
 
 ## Author
 Sumedh Patil
