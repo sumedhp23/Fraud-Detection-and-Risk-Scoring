@@ -67,6 +67,7 @@ These results demonstrate a balance between detection accuracy and real-world us
 ---
 
 ## Repository Structure
+```bash
 fraud-detection-and-risk-scoring/
 │
 ├── data/
@@ -87,7 +88,7 @@ fraud-detection-and-risk-scoring/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## How to Run
