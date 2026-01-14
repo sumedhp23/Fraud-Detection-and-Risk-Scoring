@@ -59,22 +59,12 @@ These results demonstrate a balance between detection accuracy and real-world us
 
 ---
 
----
-
 ## Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - TensorFlow
 - Matplotlib / Seaborn
-
----
-<<<<<<< HEAD
-
-## Models Used
-- Logistic Regression
-- Random Forest
-- Neural Network
 
 ---
 
@@ -105,46 +95,6 @@ fraud-detection/
 ├── README.md
 └── .gitignore
 ```
-
----
-
-## Key Highlights
-- Handles highly imbalanced data
-- Model optimization and evaluation using ROC-AUC
-- Risk scoring instead of binary prediction
-- Production-style ML pipeline
-
----
-
-## Dataset
-Credit Card Fraud Detection Dataset (Kaggle)
-The dataset is not included due to GitHub size limits.
-Download from: https://www.kaggle.com/mlg-ulb/creditcardfraud
-=======
-
-## Repository Structure
-```bash
-fraud-detection-and-risk-scoring/
-│
-├── data/
-│ ├── raw/ # Original dataset (not tracked if large)
-│ └── processed/ # Cleaned and transformed data
-│
-├── notebooks/
-│ ├── exploration.ipynb # EDA and initial experimentation
-│
-├── src/
-│ ├── preprocessing.py # Data cleaning and feature engineering
-│ ├── train.py # Model training logic
-│ ├── evaluate.py # Model evaluation and metrics
-│ └── risk_scoring.py # Risk score generation logic
-│
-├── models/
-│ └── saved_models/ # Trained model artifacts
-│
-├── requirements.txt
-└── README.md
-```
 ---
 
 ## How to Run
@@ -168,7 +118,6 @@ python src/evaluate.py
 6. Generate transaction risk scores:
 
 python src/risk_scoring.py
->>>>>>> fed9cc72f55784363c2f3934efb54a3924415b8b
 
 ---
 
